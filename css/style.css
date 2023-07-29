@@ -1,0 +1,360 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+main {
+  position: relative;
+}
+/* =======================
+      COLOURS
+=========================*/
+.btn-col-1 {
+  background-color: #dab544;
+  color : black;
+}
+.btn-col-2 {
+  background-color: #050907;
+  color : white;
+}
+/* =========================================
+            HEADER SECTION
+========================================== */
+header aside {
+  width : 100%;
+  height: 6vh;
+  background-color:black;
+  display :flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header article {
+  width : 100%;
+  min-height: 12vh;
+  display: flex;
+}
+header .social-links {
+  margin-right: 100px;
+}
+header .social-links a {
+  margin: 5px;
+}
+ header article .flexy-cen {
+   width: 100%;
+  align-content: flex-end;
+ }
+header article ul{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+header article ul li {
+  list-style: none;
+  text-align: center;
+  width: 140px;
+  color: yellow;
+  font-size: 21px;
+  font-weight: 700;
+  text-shadow: 1px 2px 3px black;
+  transition: all 0.6s ease;
+}
+header article ul li a {
+  width : 140px;
+  height: 100%;
+  font-weight: 700;
+  color:#006633 ;
+}
+nav {
+  background-color: #dab544;
+}
+nav a {
+  text-decoration: none;
+}
+nav ul li {
+  cursor : pointer;
+}
+
+/* =======================================
+        CUSTOMIZED tags
+ ======================================= */
+.flexy-cen,
+.flexy-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexy-col {
+  flex-direction: column;
+}
+.refer {
+  background: url("../assets/other/share.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #000000d4;
+  height: 83vh;
+  width: 100%;
+  display: flex;
+  background-blend-mode: multiply;
+}
+.refer .flexy-col {
+  margin: auto;
+  text-align: center;
+  background: #ffffff1a;
+  color: #ffcb31;
+  font-weight: 700;
+  font-size: 123%;
+  padding: 27px 0px;
+}
+.refer .flexy-col h3 {
+  font-size: 2.75rem;
+  font-style: italic;
+  text-shadow: 2px 3px 5px #015830;
+}
+/* =======================================
+        CUSTOMIZED HEADDINGS
+ ======================================= */
+
+ /* =======================================
+          DEFAULT COLOURS
+  ======================================= */
+ .clr1 {
+     background-color: #009933 !important;
+ 	   color : white;
+ }
+ .clr2 {
+ 	background-color: #dab544 !important;
+ 	color : #dd3c15;
+ }
+ .clr3 {
+ 	background-color: #e8e8e8 !important;
+ 	color : black;
+ }
+
+ /* =======================================
+            CUSTOMED BUTTONS
+  ======================================= */
+  button {
+    width: 130px;
+    height: 35px;
+    line-height:35px;
+    outline : none;
+    border : none;
+    transition: all 0.5s ease-in-out;
+  }
+#easy-contact button{
+  background-color: #dab544;
+}
+#easy-contact .adress button {
+  width : 160px;
+  height : 50px;
+  margin : 10px;
+  background-color :black;
+  color :white;
+}
+#about button {
+  cursor: pointer;
+  background: black;
+  width: 160px;
+  height: 59px;
+  border-radius: 32px;
+  color: white;
+}
+#values  button {
+  height: 45px;
+  background-color: black;
+  color: white;
+  margin-top: 16px;
+}
+.refer button {
+  cursor: pointer;
+  background: black;
+  color: white;
+  height: 44px;
+  border-radius: 4px;
+}
+#hero-page aside form button {
+  width: 90%;
+  background: green;
+  color: white;
+  height: 49px;
+  font-size: 32px;
+  font-weight: 700;
+  border-radius: 0px 0px 7px 7px;
+}
+#hero-page article:nth-child(1) button {
+  width: 160px;
+  height: 45px;
+  background: black;
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+}
+/* =======================================
+           HOVER ACTIVE FOCUS
+ ======================================= */
+ .move-up-icon img:hover {
+  transform : rotate(0deg);
+  opacity : 1;
+}
+#easy-contact button:hover {
+  background-color: #009933;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+.refer button:hover {
+  background: #009933;
+  color: black;
+  letter-spacing: 1.4px;
+  font-weight: 700;
+}
+#hero-page aside form button:hover {
+  background:black;
+  color: green;
+  font-weight: 900;
+  border-radius:7px;
+  border-bottom: 2px solid #009933;
+  letter-spacing: 1.4px;
+}
+#hero-page article:nth-child(1) button {
+  background: black;
+  color: white;
+  font-weight: 900;
+}
+header article ul li:hover {
+  color: black;
+  font-weight: 900;
+}
+#easy-contact .adress button:hover {
+  border : 3px solid #dab544;
+  color : #dab544;
+}
+ /* =========================================
+             IMAGES SECTION
+ ========================================== */
+header .social-links img{
+  height: 18px;
+  width : 18px;
+}
+header article img {
+  width: 231px;
+  height: 86px;
+  margin: 3px;
+}
+.footer-links img {
+  width : 250px;
+}
+#about img {
+  width : 100%;
+}
+
+#staff img {
+  width: 252px;
+  height: 252px;
+  border-radius: 50%;
+}
+.soc-icons {
+  width: 50px !important;
+  height: 50px !important;
+  margin: 10px 5px;
+}
+#testo img {
+  width : 250px;
+  height : 250px;
+  border-radius: 50%;
+  border : 10px solid olivedrab;
+}
+ /* =========================================
+             CAROUSEL SECTION
+ ========================================== */
+#hero-caro  {
+  height : 100vh;
+  border-bottom: 3px solid red;
+}
+#hero-caro .carousel-inner ,
+#hero-caro .carousel-item {
+  height: 100%!important;
+}
+#hero-caro article {
+  width : 100%;
+  height: 100%;
+}
+#testo {
+  height :600px;
+}
+#testo article {
+  width: 600px;
+  margin: 100px auto;
+  text-align: center;
+  justify-content: space-around;
+}
+#testo  h3 {
+  font-size: 48px;
+  margin: 15px auto 5px;
+  font-style: italic;
+}
+
+
+
+
+
+#func-modal ,#link-mod {
+  height: 100vh;
+  background-color: #000000ed;
+  position: fixed;
+  top: 0px;
+  z-index: 1500;
+  left: 0px;
+  display: none;
+}
+#func-modal article,
+#link-mod article {
+  width: 509px;
+  height: 66vh;
+  background-color: #00ff89;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 2px 3px black;
+  font-weight: 700;
+  border-radius: 8px;
+  justify-content: space-evenly;
+}
+#func-modal h2, #link-mod h2 {
+  font-size: 2.5rem;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 12px;
+  text-decoration-color: #dd3c15;
+  margin-bottom: 8px;
+  text-shadow: 2px 2px 3px #000000;
+}
+#func-modal p, 
+#link-mod p {
+  font-size: 22px;
+}
+.mod-close {
+  height: 46px;
+  width: 150px;
+  background-color: #dd3c15;
+  line-height: 43px;
+  font-size: 31px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+#func-modal span, 
+#link-mod span {
+  font-size: 26px;
+  color: #dd3c15;
+}
+.mod-close:hover {
+  background-color: #009933;
+  color : black;
+  border-bottom: 5px solid #009933;
+  letter-spacing: 1.6px;
+  font-weight: 900;
+}
+.show-modal-up {
+  display : flex !important;
+}

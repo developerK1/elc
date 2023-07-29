@@ -1,0 +1,391 @@
+
+/* =========================================
+            HEME HERO SECTION
+========================================== */
+#hero-page {
+  min-height: 100vh;
+  width: 100%;
+  background: url("../assets/other/hero.jpg") no-repeat;
+  background-size: cover;
+  background-position:center ;
+}
+#hero-page aside {
+  height: 400px;
+}
+#hero-page aside form {
+  height: 100%;
+  width: 371px;
+  justify-content: space-evenly;
+  align-items: center;
+  background: white;
+  border-radius: 17px;
+}
+#hero-page aside textarea, #hero-page aside form input {
+  width: 91%;
+  height: 100%;
+  margin: 5px 0px;
+  padding-left: 10px;
+  background-color: #f1c84f;
+  border: 2px;
+  border-radius: 8px;
+  font-size: 22px;
+}
+#hero-page aside form  .flexy-col {
+  height: 12vh;
+  width: 100%;
+}
+#hero-page aside .flexy-body {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0px;
+}
+#hero-page h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 600;
+  font-family: Assistant;
+  text-shadow: 1px 1px 0px #333;
+}
+#hero-page article:nth-child(2){
+  display: flex;
+  justify-content: flex-end;
+}
+#hero-page article:nth-child(1) aside{
+  display: flex;
+  align-items: flex-start !important;
+}
+/* =========================================
+            ABOUT US SECTION
+========================================== */
+#about .boxes {
+  width: 100%;
+  height: 270px;
+  display: flex;
+  background-color: yellow;
+  overflow: hidden;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+#about .boxes h3 {
+  margin: auto;
+  font-size: 62px;
+  color: black;
+}
+#about .boxes p {
+  transform: translate(-136px, -33px);
+  height: 200px;
+  width: 166px;
+  border: 5px solid yellow;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+#about .boxes .material-symbols-outlined {
+  font-size: 100px !important;
+  color: white;
+  font-weight: 900;
+}
+#about figure {
+  width: 100%;
+  height: 100px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 2%;
+}
+.another-row {
+  padding-top: 25px;
+}
+.another-row h2 {
+  font-size: 5rem;
+  color: #27db27;
+  text-shadow: 6px 3px 6px black;
+  font-style: italic;
+}
+
+.another-row p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+}
+/* =========================================
+            VALUES & CARE SECTION
+========================================== */
+#values,
+#care {
+  height: 100vh;
+  background: url("../assets/gallery/gather.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #27db27d8;
+  background-blend-mode: overlay;
+}
+#care {
+  background-color: #d6ee1dd8;
+  margin-top: 15px;
+}
+#values aside {
+  height: 400px;
+  width: 600px;
+  background-color: white;
+  color: black;
+  margin: 121px auto;
+  border-radius: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#values  h2 {
+  font-size: 5rem;
+  font-family: cursive, 'Space Mono', monospace,'Roboto Condensed', sans-serif;
+}
+#values  p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 62px;
+  font-weight: 600;
+  color: #1cc943;
+}
+#care h1 {
+  font-size: 10.5rem;
+  margin: auto;
+  text-align: center;
+  color: green;
+  text-shadow: 3px 6px 3px black;
+  font-weight: 900;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 25px;
+}
+/* =========================================
+            VISSION SECTION
+========================================== */
+#vission {
+  min-height: 600px;
+  display: flex;
+}
+#vission .container{
+  margin: auto;
+}
+#vission figure {
+  width : 60%;
+}
+#vission .flexy-cen {
+  justify-content: space-evenly;
+  margin-top: 30px;
+  padding-top: 32px;
+}
+#vission .material-symbols-outlined {
+  font-size: 140px !important;
+}
+#vission h4 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 30px auto;
+  font-size: 62px;
+}
+
+/* =========================================
+            STAFF SECTION
+========================================== */
+#staff h2 {
+  text-align: center;
+  font-size: 88px;
+  color: yellow;
+  margin: 20px auto 40px auto;
+  text-shadow: 2px 5px 3px black;
+  font-style: italic;
+  font-weight: 700;
+}
+#staff .row {
+  padding: 5% 0px;
+}
+#staff aside {
+  height: 476px;
+  width: 93%;
+  border-radius: 259px;
+  width: 264px;
+  justify-content: space-evenly;
+  margin: 15px 0px;
+}
+#staff {
+  background-color: #e1e1e1;
+}
+/* #staff .teacher {
+  font-style : italic;
+  color : rgb(41, 252, 41);
+} */
+/* =========================================
+            SERVICES SECTION
+========================================== */
+#about .three {
+  min-height: 100vh;
+}
+/* #about .three aside {
+  height : 400px;
+  border : red 3px solid;
+} */
+/* =========================================
+            TESTIMONIALS SECTION
+========================================== */
+
+/* =========================================
+            SERVICES SECTION
+========================================== */
+
+/* =========================================
+            FOOTER SECTION
+========================================== */
+#easy-contact {
+  min-height: 100vh;
+}
+#easy-contact .container {
+  margin: auto !important;
+}
+#easy-contact article {
+  height: 500px;
+}
+#easy-contact form {
+  height : 100%;
+  background-color: white;
+}
+#easy-contact form  .form-group {
+  height: 14vh;
+}
+#easy-contact form .form-body {
+  min-height: 14vh;
+}
+#easy-contact form input {
+  background-color: #dab544;
+  color : white !important;
+  font-weight: 700;
+  text-align: center;
+}
+#easy-contact form textarea {
+  border: solid 2px #dab544;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: 700;
+}
+#easy-contact form label {
+  color: #009933;
+  font-weight: 900;
+  font-size: 22px;
+}
+footer {
+  position: relative;
+}
+
+footer .move-up-icon {
+    position: absolute;
+    right: 8px;
+    bottom: 111px;
+}
+.move-up-icon img {
+  transition: all 0.4s ease-in-out;
+  transform: rotate(180deg);
+  border-radius: 50%;
+  opacity: 0.7;
+  border: 9px  solid gold;
+  width: 60px;
+  height: 60px;
+}
+.footer-links {
+  min-height: 12vh;
+  background-color:black ;
+  color :white;
+  font-weight: 700;
+  font-size: 20px;
+  font-style: italic;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.footer-links a {
+  color : gold;
+  font-weight: 700;
+}
+
+/* =========================================
+            MAP AND FORM SECTION
+========================================== */
+#map {
+    width: 100%;
+    height: 70vh;
+    background: black;
+}
+#map iframe {
+  width: 100%;
+}
+ /* =======================================
+            JAVASCRIPT ANIMATIONS
+  ======================================= */
+.vanish-main {
+  animation: hidmain 1s ease-in-out forwards;
+}
+@keyframes hidmain {
+  0% {
+    opacity : 0.9;
+  }
+  25% {
+    opacity : 0.7;
+  }
+  50% {
+    opacity : 0.5;
+  }
+  75% {
+    opacity : 0.2;
+  }
+  100% {
+    opacity : 0;
+    display : none;
+  }
+}
+/* =========================================
+            SAMPLE PAGE NOT FOUND
+========================================== */
+#sample {
+  height: 90vh;
+  width : 100%;
+  background: url("../assests/gallery/sample.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.musk {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: repeating-radial-gradient(#00800042,#ffd70091 15%);
+}
+ #sample .overlayed {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   background-color: #0000004f;
+ }
+#sample .musk h1 {
+  margin :auto;
+  width: 80%;
+  color :white;
+  text-align: center;
+  background-color: #000000d1;
+  padding: 2%;
+  text-shadow: 7px 8px 6px green;
+}
