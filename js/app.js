@@ -75,7 +75,7 @@ hamburger.addEventListener("click", function(){
     hamburgerLines[1].classList.add("middleline");
     hamburgerLines[2].classList.add("lowerline");
 
-    main.classList.add("vanish-main");
+    // main.classList.add("vanish-main");
 
     hamburgerStatus = true;
 
@@ -87,7 +87,7 @@ hamburger.addEventListener("click", function(){
     hamburgerLines[2].classList.remove("lowerline");
 
     navLinks.classList.remove("show-ul");
-    main.classList.remove("vanish-main");
+    // main.classList.remove("vanish-main");
     hamburgerStatus = false;
 
   }
