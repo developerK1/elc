@@ -332,7 +332,8 @@ footer .move-up-icon {
             JAVASCRIPT ANIMATIONS
   ======================================= */
 .vanish-main {
-  animation: hidmain 1s ease-in-out forwards;
+  /* animation: hidmain 1s ease-in-out forwards; */
+  display : none !important;
 }
 @keyframes hidmain {
   0% {
@@ -348,7 +349,6 @@ footer .move-up-icon {
     opacity : 0.2;
   }
   100% {
-    opacity : 0;
     display : none !important;
   }
 }
