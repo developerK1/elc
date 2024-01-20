@@ -149,6 +149,11 @@ nav {
   #about .three {
     padding: 2% 0px;
   }
+  #vission figure {
+    width: 100%;
+	padding : 3px;
+	text-align :center;
+}
 }
 @media(max-width : 590px){
   #hero-center aside {
